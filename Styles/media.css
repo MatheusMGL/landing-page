@@ -1,0 +1,48 @@
+@media screen and (max-width: 750px) {
+    * {
+        margin: 0 auto;
+        padding: 0;
+    }
+    section {
+        justify-content: center;
+        flex-direction: column;
+        padding: 0;
+    }
+    img {
+        padding-bottom: 20px;
+        max-width: 350px;
+        justify-content: right;
+    }
+    header {
+        justify-content: column;
+    }
+    .rodape {
+        font-family: poppinsbold;
+        padding-top: 120px;
+    }
+    #title {
+        line-height: 32px;
+    }
+    li {
+        justify-content: center;
+    }
+    input {
+        height: 18px;
+        width: 70%;
+    }
+    form [type="submit"] {
+        height: 50px;
+        width: 55%;
+    }
+    p {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1004px) {
+    h2 {
+        line-height: 45px;
+        font-weight: 30px;
+    }
+}
